@@ -10,11 +10,23 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 header ul {
   display: flex;
   gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(255, 251, 0);
+    font-weight: 900;
 }
 
 #page-logo a {
@@ -26,9 +38,3 @@ header ul {
     color: rgb(255, 207, 123);
     font-size: 54px;
   }
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}

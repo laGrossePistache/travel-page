@@ -1,0 +1,10 @@
+#hero{
+    height: 800px;
+    background-image: url("/images/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content{
+    width: 800px;
+}
